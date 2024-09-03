@@ -84,4 +84,13 @@ public abstract class NativeClipboardModuleSpec extends ReactContextBaseJavaModu
   @ReactMethod
   @DoNotStrip
   public abstract void removeListener();
+
+  
+  @ReactMethod
+  @DoNotStrip
+  public abstract void addListener(String eventName);
+
+  @ReactMethod
+  @DoNotStrip
+  public abstract void removeListeners(double count);
 }
