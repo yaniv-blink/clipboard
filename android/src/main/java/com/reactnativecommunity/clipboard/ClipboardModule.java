@@ -238,12 +238,12 @@ public class ClipboardModule extends NativeClipboardModuleSpec {
   }
 
   @Override
-  public void removeListeners(int count) {
+  public void removeListeners(double count) {
 
   }
 
   @ReactMethod
-  public void removeListeners(Integer count) {
+  public void removeListeners(Double count) {
     // Keep: Required for RN built in Event Emitter Calls.
   }
 }
